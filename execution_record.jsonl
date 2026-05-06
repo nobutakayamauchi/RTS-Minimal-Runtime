@@ -1,0 +1,1 @@
+{"task_id":"rts_minimal_runtime_001","action":"bootstrap_minimal_runtime","input":"intent.md","outputs":["execution_record.jsonl","manifest.sha256","reconstruction.md"],"result":"minimal_reconstructable_flow_recorded","next_action":"verify_manifest_and_reconstruct_run"}

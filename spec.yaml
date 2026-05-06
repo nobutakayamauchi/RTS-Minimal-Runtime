@@ -1,0 +1,18 @@
+task_id: rts_minimal_runtime_001
+title: Bootstrap RTS Minimal Runtime
+input: intent.md
+outputs:
+  - execution_record.jsonl
+  - manifest.sha256
+  - reconstruction.md
+constraints:
+  - no_app_code
+  - no_dependencies
+  - no_cloud_execution
+  - no_multi_agent_automation
+success_criteria:
+  - intent_is_recorded
+  - spec_is_defined
+  - execution_is_logged
+  - manifest_is_created
+  - reconstruction_is_possible
